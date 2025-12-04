@@ -1,15 +1,39 @@
 @import "tailwindcss";
 
-*{
+body{
   background-image: url('../public/bg.png');
   background-size: cover;
+  cursor: grab;
 }
 
 header{
   background-color: transparent !important;
+  font-family: var(--font-eb-garamond), sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: fixed;
+  width: 100vw;
 }
 
 main{
-  background-color: rgba(255, 255, 255, 0.1);
+  /* background-color: rgba(255, 255, 255, 0.05); */
   /* backdrop-filter: blur(10px); */
+  color: #fff;
+}
+
+.intro {
+  
+}
+p.title{
+  font-family: var(--font-helvetica) sans-serif;
+  letter-spacing: 4px;
+  font-weight: 200;
+}
+
+h1.desc{
+  font-family: var(--font-helvetica) serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 20;
+  text-align: justify;
 }
